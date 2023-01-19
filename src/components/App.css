@@ -26,7 +26,6 @@ body {
 .fa-globe {
     padding-right: 15px;
     font-size: xx-large;
-    /* color: lightslategray; */
 }
 
 main {
@@ -59,7 +58,6 @@ h2 {
 .main--badge {
     font-family: 'Martian Mono';
     font-size: 12.8px;
-    /* letter-spacing: 0.05rem; */
 }
 
 .fa-map-marker {
