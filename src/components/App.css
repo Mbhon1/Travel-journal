@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #DFC2F2;
+	background-image: linear-gradient( to right, #ffffb3,#ffe6e6);
+	background-attachment: fixed;	
+	background-size: cover;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #4a88b58f;
+    padding: 2px 5px;
+}
+
+.header p {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.fa-globe {
+    padding-right: 15px;
+    font-size: xx-large;
+    /* color: lightslategray; */
+}
+
+main {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 550px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.555);
+    color: white;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    font-size: 20px;
+    padding: 5px;
+    line-height: 1.10em;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1em;
+}
+
+h2 {
+    font-family: 'Orbitron';
+}
+
+.main--badge {
+    font-family: 'Martian Mono';
+    font-size: 12.8px;
+    /* letter-spacing: 0.05rem; */
+}
+
+.fa-map-marker {
+    padding-right: 5px;
+}
+
+.gmaps {
+    padding-left: 15px;
+}
+
+.desc {
+    font-family: 'Shadows Into Light';
+    font-weight: 700;
+    font-size: large;
+}
+
+span {
+    font-weight: bold;
+    font-size: xx-small;
+    font-family: sans-serif;
+}
+
+.pad-right {
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 90%;
+    }
+}
